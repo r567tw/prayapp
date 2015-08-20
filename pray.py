@@ -4,14 +4,14 @@
 
 #讀取檔案
 def readfile(name):
-    file = open(name, 'r',)
+    file = open(name, 'r')
     content=file.read()
     print(content)
     file.close()
 
 #寫取檔案
 def writefile(name,content):
-    file = open(name, 'a+',)
+    file = open(name, 'a+', encoding = 'UTF-8')
     file.write(content)
     print('檔案寫入成功')
     file.close()
@@ -50,7 +50,7 @@ while (play != '0' ):
             add=input("是否要繼續輸入下一筆?(若結束則輸入0)：")
         play=input("是否要離開程式?(若結束則輸入0)：")
     elif (access=='2'):
-        value=readfile(data)
+        readfile(data)
         play=input("是否要離開程式?(若結束則輸入0)：")
     #小小彩蛋-宣告我的名字就可以結束程式~~
     elif (access=="I'm Jimmy fang"):
