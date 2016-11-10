@@ -20,4 +20,4 @@
     1.多一格空白會視同你輸入錯誤......
 	
 ###連絡我<br/>
-	若有任何關於此程式的bug問題還是使用問題歡迎連絡我，email:r567tw@gmail.com/[歡迎來我的網站](http://www.r567tw.usite.tw)
+	若有任何關於此程式的bug問題還是使用問題歡迎連絡我，email:r567tw@gmail.com/[歡迎來我的網站](http://r567tw.tw)
